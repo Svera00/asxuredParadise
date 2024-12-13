@@ -1,0 +1,317 @@
+body {
+    font-family: 'Viga', sans-serif;
+    line-height: 1.6;
+    background-color: #d3c4b0; 
+    color: #FFFFFF;
+}
+
+.navbar {
+    background-color: #d3c4b0; 
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff !important; 
+}
+.nav-link {
+    color: #7F8C8D !important; 
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #d3c4b0 !important; 
+}
+
+.navbar-toggler-icon {
+    color: #ffffff; 
+  }
+
+.jumbotron {
+    background: url('../img/hotel.png') center center/cover no-repeat;
+    height: 550px;
+    color: #FFFFFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+.jumbotron .container {
+    padding-top: 150px; 
+}
+
+.jumbotron::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.jumbotron h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.jumbotron .btn {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+.jumbotron .btn:hover {
+    background-color: #000000; 
+}
+
+.info-panel {
+    background: #FFFFFF; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+}
+.info-panel h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d3c4b0; 
+}
+.info-panel p {
+    font-size: 0.9rem;
+    color: #000000; 
+}
+
+.workingspace {
+    margin: 60px 0;
+}
+.workingspace img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.workingspace h2 {
+    font-size: 2.5rem;
+    color: #fffffa;
+    margin-bottom: 20px;
+}
+.workingspace p {
+    color: #555;
+}
+
+footer {
+    background: #d3c4b0; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 992px) {
+    .jumbotron h1 {
+        font-size: 4.5rem;
+    }
+    .workingspace {
+        text-align: left;
+    }
+    .testimonial p {
+        font-size: 1.6rem;
+    }
+}
+.tombol {
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+.info-panel {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: -120px;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.info-panel p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #000000;
+}
+.testimonial {
+    background-color: #d3c4b0;
+    padding-top: 50px;
+    color: #000000;
+}
+
+.testimonial h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonial p.lead {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    border: 3px solid #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s;
+}
+
+.testimonial-img:hover {
+    transform: scale(1.1); 
+}
+
+.testimonial .col-lg-6 h5 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.testimonial .col-lg-6 p {
+    color: #d62222;
+}
+.testimonial .card {
+    min-height: 350px; 
+  }
+  
+  .testimonial .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+.btn-custom {
+    background-color:#ffffff; 
+    border: none; 
+    color: rgb(0, 0, 0);
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 30px; 
+    transition: background-color 0.3s ease;
+}.btn-custom2 {
+    background-color: #000000;; 
+    border: none;
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 40px;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-custom:hover {
+    background-color:#d3c4b0;
+    color: #f8f9fa; 
+}
+
+.btn-custom:active {
+    background-color: #bdae9c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.info-panel img {
+    max-width: 80px;
+    max-height: 80px; 
+    width: auto; 
+    height: auto; 
+    margin-right: 15px;
+}
+.workingspace img {
+    max-height: 300px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+.card {
+    border: none;
+    border-radius: 10px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px; 
+  }
+    .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    flex-shrink: 0; 
+  }
+    .card-body {
+    padding: 20px;
+    flex-grow: 1; 
+  }
+  
+  .card-title {
+    font-size: 1.25rem; 
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    flex-grow: 1; 
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+  }
+  
+.card-reserva {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #000000a6;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.card-reserva h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card-reserva p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-reserva {
+    background-color: #bdae9c;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-reserva:hover {
+    background-color: #a79c8f;
+    color: #fff;
+}
